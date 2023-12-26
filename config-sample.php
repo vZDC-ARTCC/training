@@ -30,7 +30,7 @@ class Config {
     // GENERAL SETTINGS
     // ------------------------------------------------------------------------
 
-    const BASE_URL      = 'https://scheduler.clevelandcenter.org';
+    const BASE_URL      = '';
     const LANGUAGE      = 'english';
     const DEBUG_MODE    = FALSE;
 
@@ -38,10 +38,10 @@ class Config {
     // DATABASE SETTINGS
     // ------------------------------------------------------------------------
 
-    const DB_HOST       = 'mysql.clevelandcenter.org';
-    const DB_NAME       = 'scheduler_site_ad';
-    const DB_USERNAME   = 'scheduler_zob';
-    const DB_PASSWORD   = 'BR?spe*rusPocR9pHe#r';
+    const DB_HOST       = 'localhost';
+    const DB_NAME       = 'training';
+    const DB_USERNAME   = 'ez';
+    const DB_PASSWORD   = 'admin';
 
     // ------------------------------------------------------------------------
     // GOOGLE CALENDAR SYNC
